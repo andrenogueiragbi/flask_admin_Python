@@ -1,0 +1,5 @@
+SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+SECRET_KEY = 'secret'
+DEBUD = True
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+FLASK_ADMIN_SWATCH = 'cerulean'
