@@ -87,9 +87,9 @@ class StartDB():
     def startDB(a):
         if a:
             db.create_all()
-            #user = User('debug','debug@debug','123')
-            #db.session.add(user)
-            #db.session.commit()
+            user = User('debug','debug@debug','123')
+            db.session.add(user)
+            db.session.commit()
 
 
 

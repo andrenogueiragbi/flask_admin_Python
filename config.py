@@ -3,3 +3,4 @@ SECRET_KEY = 'secret'
 DEBUD = True
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 FLASK_ADMIN_SWATCH = 'cerulean'
+#FLASK_ENV='development'
